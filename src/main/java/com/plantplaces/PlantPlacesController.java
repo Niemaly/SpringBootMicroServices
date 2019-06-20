@@ -13,5 +13,15 @@ public class PlantPlacesController {
 		return "start";
 	}
 	
+	/*
+	 * 		Add index startpoint
+	 */
+	
+	
+	@RequestMapping("/")
+	public String index() {
+	
+		return "start";
+	}
 	
 }
